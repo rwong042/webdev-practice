@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Exercise</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+	
+	<form action="https://rwong042.github.io">
+	
+	<p>
+	 <label for="first-name">First Name: </label>
+	 <input type="text" required id="first-name" placeholder="John">
+
+	 <label for="last-name">Last Name: </label>
+	 <input type="text" required id="last-name" placeholder="Smith">
+	</p>
+
+	<p>
+	 <label for="male">Male </label>
+	 <input type="radio" required id="male">
+
+	 <label for="female">Female </label>
+	 <input type="radio" required id="female">
+	</p>
+
+	<p>
+	 <label for="email">Email</label>
+	 <input type="email" required id="email" placeholder="john.smith@example.com">
+
+	 <label for="password">Password: </label>
+	 <input type="password" required id="password" placeholder="your password" minlength="5" maxlength="10" size="10">
+	</p>
+
+	<p>
+	 <label for="birthday">Birthday: </label>
+	 <input type="date" required id="birthday">
+	</p>	
+
+	<p>
+	 <label for="terms-and-conditions">I agree to the terms and conditions: </label>
+	 <input type="checkbox" required id="terms-and-conditions">
+	</p>
+
+	<input type="submit">
+
+	</form>
+
+</body>
+</html>

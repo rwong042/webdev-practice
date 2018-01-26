@@ -1,0 +1,31 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 35%;
+    margin: auto;
+    border: 20px solid #BDC3C7;
+}
+
+article {
+    /*border: 20px solid #BDC3C7;*/
+    padding: 0 20px 0;
+}
+
+/* Gradient color1 - color2 - color1 */ 
+hr.style-one { 
+    border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc); 
+}
+
+p.date {
+    color: #3498DB;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h2.title {
+    color: #2C3E50;
+}
+
+p.first-paragraph {
+    border-left: 4px solid #BDC3C7;
+    padding-left: 4px;
+}
